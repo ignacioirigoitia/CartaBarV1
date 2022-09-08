@@ -94,8 +94,8 @@ article img {
 
 main section article {
     background-color: rgba(255, 255, 255, 0.5);
-    margin: 20px 0;
-    height: 25vh;
+    margin: 20px;
+    height: 250px;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -110,6 +110,8 @@ main section article {
     justify-content: space-evenly;
 }
 
+
+
 .column {
     display: flex;
     flex-direction: column;
@@ -122,7 +124,7 @@ main section article {
 }
 
 .first_column article {
-    height: 40vh;
+    height: 400px;
 }
 
 .second_column {
@@ -135,6 +137,22 @@ main section article {
 
 .second_column h2 {
     font-size: 2rem;
+}
+
+.form-section {
+    width: 100%;
+    margin: 20px;
+    padding: 15px;
+}
+
+.form-section article {
+    align-items: flex-start;
+    padding: 20px;
+    height: 500px;
+}
+
+textarea {
+    resize: none;
 }
 
 @media screen and (max-width: 800px){

@@ -15,65 +15,87 @@
         <img src="./images/logo.webp" alt="logo bar">
     </header>
     
-    <main>
-        
-        <section class="first_column">
-            <article>
-                <h2><b>PIZZAS</b></h2>
-                <div class="row">
-                    <div class="column">
-                        <img src="./images/pizza2.png" alt="peperoni">
-                        <h4>Peperoni</h4>
-                        <p>$1200</p>
+    <main class="column">
+
+        <div class="row">
+
+            <section class="first_column">
+                <article>
+                    <h2><b>PIZZAS</b></h2>
+                    <div class="row">
+                        <div class="column">
+                            <img src="./images/pizza2.png" alt="peperoni">
+                            <h4>Peperoni</h4>
+                            <p>$1200</p>
+                        </div>
+                        <div class="column">
+                            <img src="./images/capresse.png" alt="capresse">
+                            <h4>Capresse</h4>
+                            <p>$1300</p>
+                        </div>
                     </div>
-                    <div class="column">
-                        <img src="./images/capresse.png" alt="capresse">
-                        <h4>Capresse</h4>
-                        <p>$1300</p>
+                    
+                </article>
+    
+                <article>
+                    <h2><b>BEBIDAS ALCOHOLICAS</b></h2>
+                    <div class="row">
+                        <div class="column">
+                            <img src="./images/cerveza.png" alt="cerveza">
+                            <h4>Cerveza</h4>
+                            <p>$300</p>
+                        </div>
+                        <div class="column">
+                            <img src="./images/vino.png" alt="vino">
+                            <h4>Vino</h4>
+                            <p>$600</p>
+                        </div>
                     </div>
-                </div>
-                
-            </article>
+                </article>
+            </section>
+    
+            <section class="second_column">
+                <article>
+                    <h2><b>HAMBURGUESA</b></h2>
+                    <img src="./images/hamburguesa.png" alt="hamburguesa clasica">
+                    <h4>Clasica</h4>
+                    <p>$700</p>
+                </article>
+    
+                <article>
+                    <h2><b>PASTAS</b></h2>
+                    <img src="./images/fideos.png" alt="fideos">
+                    <h4>Fideos</h4>
+                    <p>$600</p>
+                </article>
+    
+                <article>
+                    <h2><b>BEBIDAS SIN ALCOHOL</b></h2>
+                    <img src="./images/agua.png" alt="agua">
+                    <h4>Agua</h4>
+                    <p>$200</p>
+                </article>
+    
+            </section>
 
-            <article>
-                <h2><b>BEBIDAS ALCOHOLICAS</b></h2>
-                <div class="row">
-                    <div class="column">
-                        <img src="./images/cerveza.png" alt="cerveza">
-                        <h4>Cerveza</h4>
-                        <p>$300</p>
-                    </div>
-                    <div class="column">
-                        <img src="./images/vino.png" alt="vino">
-                        <h4>Vino</h4>
-                        <p>$600</p>
-                    </div>
-                </div>
-            </article>
-        </section>
+        </div>
 
-        <section class="second_column">
-            <article>
-                <h2><b>HAMBURGUESA</b></h2>
-                <img src="./images/hamburguesa.png" alt="hamburguesa clasica">
-                <h4>Clasica</h4>
-                <p>$700</p>
+        <section class="form-section">
+            <article class="column">
+                <h4>Quieres recibir nuestro menu diario? Ingresa tu nombre y correo para obtenerlo!</h4>
+                <p>Tambien te damos la posibilidad de enviarnos un mensaje con tus gustos y preferencias a la hora de comer</p>
+                <br><br>
+                <form action="">
+                    <label for="name">Nombre:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Escribe tu nombre" ><br><br>
+                    <label for="email">Correo:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Escribe tu correo"><br><br>
+                    <label for="message">Mensaje:</label><br>
+                    <textarea name="message" rows="5" cols="50" placeholder="Escribe tu mensaje"></textarea>
+                    <br><br>
+                    <input class="btn btn-primary" type="submit" value="Enviar">
+                </form>
             </article>
-
-            <article>
-                <h2><b>PASTAS</b></h2>
-                <img src="./images/fideos.png" alt="fideos">
-                <h4>Fideos</h4>
-                <p>$600</p>
-            </article>
-
-            <article>
-                <h2><b>BEBIDAS SIN ALCOHOL</b></h2>
-                <img src="./images/agua.png" alt="agua">
-                <h4>Agua</h4>
-                <p>$200</p>
-            </article>
-
         </section>
         
     </main>
