@@ -87,11 +87,18 @@
                 <br><br>
                 <form action="">
                     <label for="name">Nombre:</label><br>
-                    <input type="text" id="name" name="name" placeholder="Escribe tu nombre" ><br><br>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        pattern="[a-zA-Z\s]+" 
+                        placeholder="Escribe tu nombre" 
+                        required 
+                    ><br><br>
                     <label for="email">Correo:</label><br>
-                    <input type="email" id="email" name="email" placeholder="Escribe tu correo"><br><br>
+                    <input type="email" id="email" name="email" placeholder="Escribe tu correo" required><br><br>
                     <label for="message">Mensaje:</label><br>
-                    <textarea name="message" rows="5" cols="50" placeholder="Escribe tu mensaje"></textarea>
+                    <textarea name="message" rows="5" cols="50" placeholder="Escribe tu mensaje" required></textarea>
                     <br><br>
                     <input class="btn btn-primary" type="submit" value="Enviar">
                 </form>
